@@ -1,0 +1,89 @@
+Css type-3
+1.inline.(j kono tag er moddhe style tag use kore inline css add korte hobe. paragraph er  j kono line e style add korar jonno span tag use kore style tag use korte hobe. ekadhik style add korle [semi-colon,;] diye diye add korte hobe.)
+2.internal;embedded
+3.external(alada kore css file baniye main html er sathe link kore dite hobe
+<link rel="stylesheet" href="filename.css">
+joto gulo file hobe shob link korte hobe.
+)
+
+CTRL + /= <!--  -->  (comment korar jonno.)
+inline tag/element gulo height and width nibe na. first e
+block tag/element banate hobe thn nibe. (display:block;)
+
+
+
+#Internal;Embedded:-
++++ <style>- Css code start er jonno head er moddhe title er pore ei tag use korte hoy.
++++ p(tag) // #(any id name(id shudhu ekti tag er jonno use kora hoy))// .(any class name(class onek gulo tag select korar jonno use kora hoy))// *(* puro html er style change korar jonno use kora hoy)
+{	  	
+
+color: red;
+background-color:green;
+width:300px;/ 30%/ rem/em;
+height:100px;
+font-size:20px;
+font weight:700px(bold)/ 400px(normal);
+font-family: ********(onek gulo font thakbe ekta support na korle onno gulo korbe.
+text-align:center;(lekha shob middle e othoba dane bame shoranor jonno use kora hoy.)
+border: 5px solid red;((width, style, color).
+border-radius:20px;(border er corner gulo round korar jonno use kora hoy)
+border-width:10px;
+border-style:solid;
+border-color:red;
+margin:10px;
+margin-top/left/right/bottom:10px;
+margin:10px 3px 2px 4px;(top,right, bottom, left). 
+margin:10px 3px;(top-bottom, left-right)
+margin:10px 3px 2px;(top, left-right, bottom)
+padding:10px;(same as margin)
+
+
+++ <span>- ei tag onno tag er moddhe use kora hoy. kono tag er kichu ongsho select korar jonno use kora hoy (vitore class and id use kore).
+
+++ h3,p 
+{
+
+} -selective kichu tag er moddhe same style use korar jonno evabe likha hoy.
+
+++ p(any tag).//#(any id or class)
+{
+
+}- eki class othoba id er onek gulo tag er theke kono nirdishto tag e style korar jonno use kora hoy.
+
+#External(alada kore css file baniye main html er sathe link kore dite hobe
+<link rel="stylesheet" href="filename.css">
+joto gulo file hobe shob link korte hobe.
+)
+
+.header{
+background-image: url('css folder e rakha image.jpg');
+background-image: url('../image.jpg');(css folder er ager folder e jawar jonno [../] use korte hobe.)
+background-position:top right// bottom left// right;
+background-size:cover;
+background-color:grey;
+background-repeat:no-repeat;
+background-blend-mode:multiplay;
+text-decoration:underline;
+display:inline;
+display:block;
+box-shadow:10px 10px 10px grey
+
+
+
+
+
+}
+
+
+input{
+display:block;(input tag er gulo onno line e dekhanor jonno)
+margin-bottom:5px;
+
+}
+
+input[type="text"](attribute selection){
+border:2px solid grey(input tag er jekono ekti k style 
+korar jonno use kora hoy.)
+
+}
+

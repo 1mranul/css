@@ -1,0 +1,67 @@
+p,span.first {
+    color: red;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.first {
+    text-align: center;
+    font-size: 2dvw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+#aa{
+    text-align: center;
+}
+ul{
+    display: inline-block;
+    text-align: ;
+}
+#ook{
+    background-color: lightgray;
+    color: #1d2f42;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid;
+    border-radius: 4px;
+    border-color: lightpink;
+    padding: 2px 5px;
+    margin: 10px 5px 30px 10px;
+    box-shadow: 10px 10px 20px grey;
+
+}
+
+
+#koko{
+    display: inline-block;
+    background-image:url(@wallpapers220\ \(31\).jpg);
+    background-size: contain;
+    background-repeat: repeat-y;
+    height: 500PX;
+    width: 500px;
+    border-radius: 50% ; 
+    text-align: center;
+    
+}
+ol{
+    display: inline-block;
+    color: cornsilk;
+  
+}
+h3{
+    text-decoration: overline dotted skyblue ;
+}
+span{
+    text-decoration: underline double #4b098e;
+}
+input{
+    display: block;
+}
+input[type="button"]{
+    border: 4px dotted brown;
+}
+input[type="text"]{
+    border: 6px solid purple;
+}
