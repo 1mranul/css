@@ -66,8 +66,8 @@ background-blend-mode:multiplay;
 text-decoration:underline;
 display:inline;
 display:block;
-box-shadow:10px 10px 10px grey
-
+box-shadow:10px 10px 10px grey;
+position: absolute; 
 
 
 
@@ -87,3 +87,20 @@ korar jonno use kora hoy.)
 
 }
 
+
+any tag :hover{ (hover use korle pointer likhar upore nile kichu animation or text add korle oigulo show korbe.)
+any style:  :
+} 
+
+
+nav li:hover .(any class){(ei command ti use korle li er moddhe pointer nile jodi oi li te kono nested text thake tahole show korbe nahole korbe na.)
+   display:block; 
+
+}
+
+
+ul > li{  (eivabe likhle ul er moddhe shobar prothom jei li thakbe shudhu matro oitai style effected hobe.)
+
+any style 
+
+}
